@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+.cache/
+.gitconfig
+.ipython/
+.jupyter/
+.local/
+.viminfo
+
+#ignore all data files
+#ignore temp directorty

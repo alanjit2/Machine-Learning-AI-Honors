@@ -1,0 +1,16 @@
+Label,Color,,,,,Shape,,,Luster,,Texture,
+,Yellow,green,red,brown,orange,Length,Width,Height,Dull,Shiny,Rough,Smooth
+Apple,1,,,,,3,3,3,,1,,1
+Apple,,1,,,,3,3,3,,1,,1
+Apple,,,1,,,3,3,3,,1,,1
+Apple,,,,1,,3,3,3,,1,,1
+Apple,,1,,1,,3,3,3,,1,,1
+Apple,1,,1,,,3,3,3,,1,,1
+Apple,1,1,1,,,3,3,3,,1,,1
+Orange,,,,,1,3,3,3,1,,1,
+Orange,,,,1,,3,3,3,1,,1,
+Orange,1,,,,,3,3,3,1,,1,
+Banana,1,,,,,2,2,7,1,,,1
+Banana,,,,1,,2,2,7,1,,,1
+Banana,1,1,,,,1,1,3,1,,,1
+Banana,1,,,1,,3,2,8,1,,,1

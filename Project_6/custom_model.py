@@ -9,7 +9,7 @@ import json, os
 from datetime import datetime
 
 def get_best_model_weights():
-    best_model_filepath = 'best_model.json'
+    best_model_filepath = 'src/best_model.json'
     if os.path.exists(best_model_filepath):
         try:
             with open(best_model_filepath, 'r') as f:
@@ -20,7 +20,7 @@ def get_best_model_weights():
     return None
 
 def read_best_model():
-    filepath = '/home/jupyter-259941/Machine-Learning-AI-Honors/Project_6/best_model.json'
+    filepath = 'src/best_model.json'
     if os.path.exists(filepath):
         try:
             with open(filepath, 'r') as f:
@@ -31,7 +31,7 @@ def read_best_model():
     return None
 
 def save_best_model(weights, fitness, generation, rows_cleared):
-    filepath = 'best_model.json'
+    filepath = 'src/best_model.json'
     current_best_model = read_best_model()
 
     is_best = False
